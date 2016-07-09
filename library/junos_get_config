@@ -86,12 +86,12 @@ options:
     options:
         description:
             - Additional options to pass to get_config. Refer
-              to B(jnpr.junos.rpcmeta.get_config) for details.
+              to B(<get-configuration > RPC) for details.
         required: false
         default: None
     filter:
         description:
-            - Defines heircachy of configuration to retrieve.  If omitted
+            - Defines hierarchy of configuration to retrieve.  If omitted
               entire configuration is retrieved.  Format is slash notation
               ex I(groups/routeinst/routing-instances/ISP-1)
         required: false
